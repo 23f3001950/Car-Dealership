@@ -5,15 +5,15 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f4f7fb;
-  color: #172033;
+  background: #eaecee;
+  color: #010102;
 }
 
 button {
   border: none;
   padding: 11px 20px;
   border-radius: 8px;
-  background: #2563eb;
+  background: #2758c2;
   color: white;
   font-size: 15px;
   cursor: pointer;
@@ -24,7 +24,7 @@ button:hover {
 }
 
 button:disabled {
-  background: #9ca3af;
+  background: #86898f;
   cursor: not-allowed;
 }
 
@@ -68,7 +68,7 @@ input {
 }
 
 .hint {
-  color: #6b7280;
+  color: #13203a;
   font-size: 13px;
   margin-top: 20px;
 }
@@ -78,12 +78,12 @@ input {
 }
 
 header {
-  background: white;
+  background: rgb(42, 56, 45);
   padding: 20px 7%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 2px 10px #e5e7eb;
+  box-shadow: 0 2px 10px #a3afc5;
 }
 
 header h1 {
@@ -119,10 +119,10 @@ main {
 }
 
 .vehicle-card {
-  background: white;
+  background: rgb(70, 94, 75);
   padding: 25px;
   border-radius: 14px;
-  box-shadow: 0 4px 15px #e1e5ec;
+  box-shadow: 0 4px 15px #d5dae2;
 }
 
 .vehicle-icon {
@@ -135,8 +135,8 @@ main {
 
 .category {
   display: inline-block;
-  background: #e8efff;
-  color: #2563eb;
+  background: #a2b5e0;
+  color: #203768;
   padding: 5px 10px;
   border-radius: 20px;
   font-size: 13px;
@@ -175,11 +175,11 @@ main {
   }
 }
 .admin-panel {
-  background: white;
+  background: rgb(238, 235, 235);
   padding: 30px;
   margin-bottom: 35px;
   border-radius: 14px;
-  box-shadow: 0 4px 15px #e1e5ec;
+  box-shadow: 0 4px 15px #3a64ad;
 }
 
 .admin-panel h2 {
@@ -212,12 +212,12 @@ main {
 
 .admin-panel hr {
   border: none;
-  border-top: 1px solid #e5e7eb;
+  border-top: 1px solid #5881d3;
   margin: 25px 0;
 }
 
 .admin-help {
-  color: #6b7280;
+  color: #4c74c4;
   font-size: 13px;
 }
 

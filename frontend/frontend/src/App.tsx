@@ -292,9 +292,11 @@ function App() {
                   {vehicle.model}
                 </h2>
 
+
                 <span className="category">
                   {vehicle.category}
                 </span>
+
 
                 <p className="price">
                   ₹
@@ -302,6 +304,7 @@ function App() {
                     vehicle.price
                   ).toLocaleString("en-IN")}
                 </p>
+                Vehicle ID: <strong>{vehicle.id}</strong>
 
                 <p>
                   Available stock:{" "}
@@ -309,6 +312,8 @@ function App() {
                     {vehicle.quantity}
                   </strong>
                 </p>
+                <p>
+</p>
 
                 <button
                   disabled={
