@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #172033;
+}
+
+button {
+  border: none;
+  padding: 11px 20px;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+input {
+  padding: 13px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+}
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  background: white;
+  width: 400px;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px #d8dde8;
+  text-align: center;
+}
+
+.login-card h1 {
+  font-size: 32px;
+}
+
+.login-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 25px;
+}
+
+.login-card button {
+  width: 100%;
+}
+
+.hint {
+  color: #6b7280;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+header {
+  background: white;
+  padding: 20px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 10px #e5e7eb;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 5px 0 0;
+  color: #6b7280;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 25px;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.toolbar input {
+  width: 400px;
+}
+
+.vehicle-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 25px;
+}
+
+.vehicle-card {
+  background: white;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px #e1e5ec;
+}
+
+.vehicle-icon {
+  font-size: 40px;
+}
+
+.vehicle-card h2 {
+  margin-bottom: 10px;
+}
+
+.category {
+  display: inline-block;
+  background: #e8efff;
+  color: #2563eb;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.vehicle-card button {
+  width: 100%;
+  margin-top: 10px;
+}
+.admin-panel {
+  background: white;
+  padding: 25px;
+  margin-bottom: 35px;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px #e1e5ec;
+}
+
+.admin-panel form {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.admin-panel button {
+  height: 45px;
+}
+
+@media (max-width: 800px) {
+  .admin-panel form {
+    grid-template-columns: 1fr;
+  }
+}
+.admin-panel {
+  background: white;
+  padding: 30px;
+  margin-bottom: 35px;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px #e1e5ec;
+}
+
+.admin-panel h2 {
+  margin-top: 0;
+}
+
+.admin-panel h3 {
+  margin-top: 20px;
+}
+
+.admin-panel form {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.admin-panel form button {
+  min-height: 44px;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.admin-actions input {
+  width: 180px;
+}
+
+.admin-panel hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 25px 0;
+}
+
+.admin-help {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.danger {
+  background: #dc2626;
+}
+
+@media (max-width: 900px) {
+  .admin-panel form {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-actions {
+    flex-direction: column;
+  }
+
+  .admin-actions input {
+    width: 100%;
+  }
+}
